@@ -25,10 +25,8 @@ body {
 .logo {
     color: var(--title-text-color);
     font-family: Raleway;
-    Font-style: 700;
     Font-size: 26px;
     line-height: 1.19;
-    Letter spacing: 3%;
 }
 
 .accent {
@@ -54,56 +52,55 @@ body {
 }
 
 .site-nav {
-    color: var(--primary-bg-color);
-    font-style:  500 ;
-    font-size: 14px ;
-    line-height: 1.14;
-    Vertical-align: Top;
-    Letter spacing: 2%;
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
     color: var(--accent-color);
-    background-color: var(--title-text-color);
+    font-size: 14px ;
+    line-height: 1.14;     
+    Vertical-align: Top;
+    background-color: var(--primary-bg-color);
+
 }
 
+.site-nav .link:hover {
+    color: var(--title-text-color);
+   /*background-color: var(--primary-bg-color);*/
+}
+.site-nav .link:focus {
+    color: var(--title-text-color);
+    /*background-color: var();*/
+}
+            
 .site-nav .link.current{
     color: var(--accent-color);
 }
 
 /* .contact-nav  */
-.contact-nav .link.current {
-    Font-family: Roboto;
-    Font-style: 500;
+.contact-nav {
+    color: var(--primary-text-color);
     Font-size: 14px;
-    Line-height: 1.14px ;
+    Line-height: 1.14px;
     Line-height: 100%;
-    Align: Left;
-    Vertical align: Top ;
-    Letter spacing: 2%;
+       
 }
 
-.contact-nav .link.current:hover,
-.contact-nav .link.current:focus {
+.contact-nav .link .current:hover {
     color: var(--accent-color);
-    background-color: var(--title-text-color);
+    }
+
+.contact-nav .link .current:focus {
+    color: var(--accent-color);
+    
 }
 
 
 /* section О компании/ герой */
 .hero-title {
-    color:var(--primary-bg-color)
-    Font-famyly: Robotio; 
-    font-style: 900;
+    color:var(--primary-bg-color);
+    Font-family: Roboto;
     Font-size: 44px;
     Line-height: 1.36;
     Line-height: 116%;
     text-align: center;
-    Letter-spacing: 6%;
-    background-color: #2F303A;
-
-   
+    background-color: #2F303A;  
 }
 
 site-nav .link {
@@ -112,49 +109,46 @@ site-nav .link {
 
 
 
-/* section преимущества / чем мы занимаемся/ наша команда/ */
+/* section преимущества */
 .section-title {
     color: var(--title-text-color);
-    Font style: 700 ;
-    Font size: 36px ;
-    Line height: 1.17; 
-    Align: Center Vertical ;
-    align: Top ;
-    Letter spacing: 3em;
+    Font-size: 36px ;
+    Line-height: 1.17; 
+      
 }
 
+/* чем мы занимаемся */
+
+/* наша команда */
 
 /* Button */
 .button {
     color: #212121;
-    background-color: var(--accent-color);
-    Font family: Roboto;
-    Font style: 700;
-    Font size: 16px;
-    Line height: 1.87;
-    Line height: 160%;
-    Letter spacing: 6em;
-    brder: 1px solid #F5F4FA
+    
+    Font-family: Roboto;
+    Font-size: 16px;
+    Line-height: 1.87;
+    Line-height: 160%;
+    border: 1px solid var(--accent-color);
     border-radius: 4px;
-display: inline-block;
+    display: inline-block;
 }
 
-.button.primary {
+.button-primary {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+    /*border-color: transparent;*/
+}
+
+.button-secondary{
     color: var(--accent-color);
     background-color: var(--primary-bg-color);
-    border-color: transparent;
-}
-
-
-.button.secondary{
-    color: var(--primary-bg-color);
-    background-color: var(--ccent-color);
-    border-color: transparent;
-
+    /*border-color: transparent;*/
 }
 
 .button:hover {
-    background-color: var(--primary-bg-color);
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
 }
 
 .button:focus {
@@ -165,15 +159,18 @@ display: inline-block;
     font-family: inherit;
 }
 
+.display {
+    margin: 0 auto;
+}
+
 /* Футер */
 .logo-footer {
     color: var(--primary-bg-color);
     font-family: Raleway;
     Font-style: normal;
-    Font-style: bolt;
-    Font size: 26px;
-    Line height: 1.19;
-    Letter spacing: 3em;
+    Font-size: 26px;
+    Line-height: 1.19;
+    
 }
 
 .dark {
@@ -188,10 +185,8 @@ display: inline-block;
     Font-size: 14px;
     Line-height: 1.71px;
     Line-height: 146%;
-    Align: Left; 
     Vertical-align: Top; 
-    letter-spacing: 3%;
-
+    
     text-decoration: none;
 }
 
@@ -204,5 +199,5 @@ display: inline-block;
 }
 
 .font-style {
-    Font style: normal;
+    Font-style: normal;
 }
