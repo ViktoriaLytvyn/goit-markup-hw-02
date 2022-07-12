@@ -25,10 +25,10 @@ body {
 .logo {
     color: var(--title-text-color);
     font-family: Raleway;
-    Font style: 700;
-    Font size: 26px;
-    Line height: 1.19;
-    Letter spacing: 3em;
+    Font-style: 700;
+    Font-size: 26px;
+    line-height: 1.19;
+    Letter spacing: 3%;
 }
 
 .accent {
@@ -48,17 +48,17 @@ body {
     color: #757575;
 }
 
-
 /*  Шапка сайта -- стилзация --site-nav  */
 .hero {
     background-color: var(--bg-color);
 }
+
 .site-nav {
     color: var(--primary-bg-color);
     font-style:  500 ;
     font-size: 14px ;
     line-height: 1.14;
-    Vertical align: Top;
+    Vertical-align: Top;
     Letter spacing: 2%;
 }
 
@@ -74,16 +74,15 @@ body {
 
 /* .contact-nav  */
 .contact-nav .link.current {
-    Font family: Roboto ;
-    Font style: 500;
-    Font size: 14px ;
-    Line height: 1.14px ;
-    Line height: 100%;
-    Align: Left ;
+    Font-family: Roboto;
+    Font-style: 500;
+    Font-size: 14px;
+    Line-height: 1.14px ;
+    Line-height: 100%;
+    Align: Left;
     Vertical align: Top ;
     Letter spacing: 2%;
 }
-
 
 .contact-nav .link.current:hover,
 .contact-nav .link.current:focus {
@@ -103,6 +102,8 @@ body {
     text-align: center;
     Letter-spacing: 6%;
     background-color: #2F303A;
+
+   
 }
 
 site-nav .link {
@@ -125,20 +126,39 @@ site-nav .link {
 
 /* Button */
 .button {
-color: var(--primary-bg-color);
-background-color: var(--accent-color);
-Font style: 700;
-Font size: 16px;
-Line height: 1.87;
-Line height: 160%;
-Letter spacing: 6em;
-border-radius: 4px;
+    color: #212121;
+    background-color: var(--accent-color);
+    Font family: Roboto;
+    Font style: 700;
+    Font size: 16px;
+    Line height: 1.87;
+    Line height: 160%;
+    Letter spacing: 6em;
+    brder: 1px solid #F5F4FA
+    border-radius: 4px;
 display: inline-block;
 }
 
 .button.primary {
+    color: var(--accent-color);
+    background-color: var(--primary-bg-color);
+    border-color: transparent;
+}
+
+
+.button.secondary{
     color: var(--primary-bg-color);
-    background-color: var(--accent-color);
+    background-color: var(--ccent-color);
+    border-color: transparent;
+
+}
+
+.button:hover {
+    background-color: var(--primary-bg-color);
+}
+
+.button:focus {
+    outline: none;
 }
 
 .button {
