@@ -123,6 +123,8 @@ site-nav .link {
     color: var(--title-text-color);
     Font-size: 36px;
     Line-height: 1.17;
+    text-align: center;
+
 
 }
 
