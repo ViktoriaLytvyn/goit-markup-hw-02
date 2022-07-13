@@ -57,7 +57,6 @@ body {
     font-weight: 500;;
     font-size: 14px;
     line-height: 1.14;
-    
 }
 
 .site-nav .link:hover {
@@ -91,7 +90,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    }
+}
 
 .contact-nav .link:hover {
     color: var(--accent-color);
@@ -100,7 +99,6 @@ body {
 /*.contact-nav .link-current:focus {
     color: var(--accent-color);
 }*/
-
 
 /* section О компании/ герой */
 .hero-title {
@@ -122,7 +120,7 @@ site-nav .link {
 .plas {
     color: var(--title-text-color);
     font-family: inherit;
-    font-style: 700;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
 }
@@ -130,7 +128,7 @@ site-nav .link {
 .description {
     color: var(--primary-text-color);
     font-family: inherit;
-    font-style: 400;
+    /*font-weight: 400;*/
     font-size: 14px;
     line-height: 1.7;
     
@@ -141,7 +139,7 @@ site-nav .link {
 .activity {
     color: var(--title-text-color);
     font-family: inherit;
-    font-style: 700;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -152,7 +150,7 @@ site-nav .link {
 .team {
     color: var(--title-text-color);
     font-family: inherit;
-    font-style: 700;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -161,7 +159,7 @@ site-nav .link {
 .team-name {
     color: var(--title-text-color);
     font-family: inherit;
-    font-style: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -170,8 +168,8 @@ site-nav .link {
 .team-profession {
     color: var(--primary-text-color);
     font-family: inherit;
-    font-style: 400;
-    font-size: 16px;
+    /*font-weight: 400;*/
+    /*font-size: 16px;*/
     line-height: 1.19;
     text-align: center;
 
@@ -222,7 +220,7 @@ site-nav .link {
 .project-name {
     color: var(--title-text-color);
     font-family: inherit;
-    font-style: 700;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     text-align: center;
@@ -232,8 +230,8 @@ site-nav .link {
 .sphere {
     color: var(--primary-text-color);
     font-family: inherit;
-    font-style: 400;
-    font-size: 16px;
+    /*font-weight: 400;*/
+    /*font-size: 16px;*/
     line-height: 1.89;
     text-align: center;
 
@@ -244,10 +242,9 @@ site-nav .link {
 .logo-footer {
     color: var(--primary-bg-color);
     font-family: Raleway;
-    font-style: 400;
+    /*font-weight: 400;*/
     font-size: 26px;
     line-height: 1.19;
-
 }
 
 .dark {
@@ -258,7 +255,7 @@ site-nav .link {
 .link-current {
     color: var(--primary-bg-color);
     font-family: inherit;
-    font-style: 400;
+   /* font-weight: 400;*/
     font-size: 14px;
     line-height: 1.71;
   
@@ -268,7 +265,7 @@ site-nav .link {
 .info {
     color: rgba(255, 255, 255, 0.6);
     font-family: inherit;
-    font-style: 400;
+    /*font-weight: 400;*/
     font-size: 14px;
     line-height: 1.71;
 }
