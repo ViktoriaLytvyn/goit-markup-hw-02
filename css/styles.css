@@ -54,9 +54,10 @@ body {
 
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;;
     font-size: 14px;
     line-height: 1.14;
-    Vertical-align: Top;
+    
 }
 
 .site-nav .link:hover {
@@ -86,11 +87,11 @@ body {
 
 /* .contact-nav  */
 .contact-nav .link {
-    color: var(--primary-text-color);
-    Font-size: 14px;
-    Line-height: 1.14px;
-    Line-height: 100%;
-}
+    color: var(--primary-text-color);   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    }
 
 .contact-nav .link:hover {
     color: var(--accent-color);
@@ -105,9 +106,9 @@ body {
 .hero-title {
     color: var(--primary-bg-color);
     Font-family: Roboto;
+    font-weight: 900;
     Font-size: 44px;
-    Line-height: 1.36;
-    Line-height: 116%;
+    line-height: 1.36;
     text-align: center;
     background-color: #2F303A;
 }
@@ -117,37 +118,73 @@ site-nav .link {
 }
 
 
-
 /* section преимущества */
-.section-title {
+.plas {
     color: var(--title-text-color);
-    Font-size: 36px;
-    Line-height: 1.17;
-    text-align: center;
+    font-family: inherit;
+    font-style: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
 
-
+.description {
+    color: var(--primary-text-color);
+    font-family: inherit;
+    font-style: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    
 }
 
 /* чем мы занимаемся */
+ 
+.activity {
+    color: var(--title-text-color);
+    font-family: inherit;
+    font-style: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    }
+
 
 /* наша команда */
-.text-centre {
+.team {
+    color: var(--title-text-color);
+    font-family: inherit;
+    font-style: 700;
+    font-size: 36px;
+    line-height: 1.16;
     text-align: center;
 }
 
+.team-name {
+    color: var(--title-text-color);
+    font-family: inherit;
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team-profession {
+    color: var(--primary-text-color);
+    font-family: inherit;
+    font-style: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+
+}
 /* Button */
 .button {
-    color: #212121;
-
-    Font-family: Roboto;
-    Font-size: 16px;
-    Line-height: 1.87;
-    Line-height: 160%;
+    
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.87;
     border: 1px solid var(--accent-color);
     border-radius: 4px;
     display: inline-block;
-
-
 }
 
 .button-primary {
@@ -180,13 +217,36 @@ site-nav .link {
     margin: 0 auto;
 }
 
+
+/*--Портфолио--*/
+.project-name {
+    color: var(--title-text-color);
+    font-family: inherit;
+    font-style: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+
+}
+
+.sphere {
+    color: var(--primary-text-color);
+    font-family: inherit;
+    font-style: 400;
+    font-size: 16px;
+    line-height: 1.89;
+    text-align: center;
+
+}
+
+
 /* Футер */
 .logo-footer {
     color: var(--primary-bg-color);
     font-family: Raleway;
-    Font-style: normal;
-    Font-size: 26px;
-    Line-height: 1.19;
+    font-style: 400;
+    font-size: 26px;
+    line-height: 1.19;
 
 }
 
@@ -197,14 +257,20 @@ site-nav .link {
 
 .link-current {
     color: var(--primary-bg-color);
-    Font-family: Roboto;
-    Font-style: normal;
-    Font-size: 14px;
-    Line-height: 1.71px;
-    Line-height: 146%;
-    Vertical-align: Top;
-
+    font-family: inherit;
+    font-style: 400;
+    font-size: 14px;
+    line-height: 1.71;
+  
     text-decoration: none;
+}
+
+.info {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: inherit;
+    font-style: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .link {
@@ -216,5 +282,5 @@ site-nav .link {
 }
 
 .font-style {
-    Font-style: normal;
+    font-style: normal;
 }
